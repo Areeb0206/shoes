@@ -1,0 +1,244 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.navbar{
+	background-color: black;height: 150px;
+clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 87% 60%, 50% 35%, 13% 60%, 0 100%, 0% 35%, 0 0);
+
+   .left{
+   	flex: 50%;
+
+		   	.logo{
+			background-image: url(../../images/logo.svg);
+			height: 80px;
+			width: 80px;margin-bottom: 30px;
+			background-size: contain;
+			background-repeat:no-repeat;display: flex;justify-content: center;align-items: center;margin-left: 40px;
+
+		}
+   }
+   .right{
+   	flex: 50%;
+   	.links{font-family: 'Roboto', sans-serif;
+   		display: flex;justify-content: flex-end;align-items:center;
+
+   		.link{
+   		color:white;margin-bottom: 50px;margin-right: 40px;
+   	     } 
+   	}
+
+   }
+}
+
+
+@media(max-width: 425px){
+
+
+
+
+.navbar{
+	background-color: black;animation-name: navbar;	animation-duration: 2s;height: auto;clip-path: none;
+      .left{
+     	.logo{
+			background-image: url(../../images/logo.svg);
+			height: 60px;
+			width: 60px;margin-bottom: 0px;
+			background-size: contain;
+			background-repeat:no-repeat;display: flex;justify-content: center;align-items: center;margin-left: 10px;
+
+				}
+
+			}
+		}
+
+		.menu{
+			color: white;
+			background-color:white
+
+
+		}
+
+		.links{
+			
+			animation-name: navbar;
+			animation-duration: 2s;
+			display: flex;flex-direction: column;grid-gap: 50px;
+
+			.link{ font-family: 'Dela Gothic One', cursive;font-weight: 100;
+				text-transform: uppercase;
+				color: white;
+			    text-decoration: none;letter-spacing: 4px;font-size: 25px;margin-bottom: 0px;margin-right: 0px;
+			    
+
+			}
+			.link.link1{
+				animation-name:link1;margin-top: 50px;
+				animation-duration:3s;transition: 2s;
+				animation-timing-function: ease-in-out;position:relative;
+                 }
+	                  .link1:before{
+	                  	content: 'HOME';color:white;font-size: 70px;opacity: 0.1;
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;left: -80px;top:-40px;
+	              font-family: 'Dela Gothic One', cursive;
+	              animation-name:delay;
+	              animation-duration:5s;
+
+	                  }
+
+	                  @keyframes delay{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link1:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  }
+
+
+			
+			.link.link2{
+				animation-name:link2;
+				animation-duration:4s;transition: 5s;
+				animation-timing-function: ease-in-out;position:relative;
+			}
+              
+
+               .link2:before{
+	                  	content: 'CONTACT';color:white;font-size: 60px;opacity: 0.1;
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: -105px;top:-25px;transform: scaleX(0.7);
+	              font-family: 'Dela Gothic One', cursive;
+	              animation-name:delay2;
+	              animation-duration:5s;
+
+	                  }
+
+	                  @keyframes delay2{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link2:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+
+
+			.link.link3{
+				animation-name:link3;
+				animation-duration:5s;transition: 2s;
+				animation-timing-function: ease-in-out;position:relative;
+				margin-bottom: 30px;
+			}
+			  .link3:before{
+	                  	content: 'LOGIN';color:white;font-size: 60px;opacity: 0.1;
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: -70px;top:-25px;
+	              font-family: 'Dela Gothic One', cursive;
+	              animation-name:delay3;
+	              animation-duration:5s;
+
+	                  }
+
+	                  @keyframes delay3{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link3:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+		
+        }
+	
+	
+	     @keyframes link1{
+			 0%{
+				opacity: 0;transform: translateY(100px);transition: 1s;
+			       
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }
+      
+       @keyframes link2{
+				 0%{
+				opacity: 0;transform: translateY(150px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }
+
+
+           @keyframes link3{
+			 0%{
+				opacity: 0;transform: translateY(200px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }  
+    
+
+
+	    @keyframes navbar{
+			0%{
+				opacity: 0;
+			}
+			100%{
+				opacity: 1;
+			}
+        }
+}
