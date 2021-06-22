@@ -14,7 +14,11 @@ import Contact from './pages/Contact/Contact';
 
 import Login from './pages/Login/Login';
 
+import Addtocart from './pages/Addtocart/Addtocart';
+
 import Navbar from './Components/Navbar/Navbar';
+
+
 const App = () => {
   return (
    <Router>
@@ -26,7 +30,11 @@ const App = () => {
           <Route path="/Login">
             <Login />
           </Route>
-          <Route path="/">
+         
+           <Route path="/Addtocart">
+            <Addtocart />
+          </Route>
+           <Route path="/">
             <Home />
           </Route>
 

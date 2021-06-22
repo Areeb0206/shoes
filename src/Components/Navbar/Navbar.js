@@ -57,6 +57,8 @@ const Nvbar = () => {
 			     
 			      <NavLink to="/Login" className="link link3" >Login			      </NavLink> 
 
+			       <NavLink to="/AddToCart" className="link link4" >CART		      </NavLink> 
+
 			  
 			  </Navbar.Collapse>
 			
