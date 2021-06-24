@@ -10,36 +10,59 @@ import './App.scss';
 
 import Home from './pages/Home/Home';
 
-import Contact from './pages/Contact/Contact';
-
 import Login from './pages/Login/Login';
 
-import Addtocart from './pages/Addtocart/Addtocart';
+import Account from './pages/Account/Account';
 
-import Navbar from './Components/Navbar/Navbar';
+import Contact from './pages/Contact/Contact';
+
+
+import Cart from './pages/Cart/Cart';
+
+import Nvbar from './Components/Navbar/Navbar';
+
+import Nike from './pages/Home/Section1/Nike/Nike';
+
+
 
 
 const App = () => {
   return (
    <Router>
-   <Navbar />
-    <Switch>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-          <Route path="/Login">
-            <Login />
-          </Route>
          
-           <Route path="/Addtocart">
-            <Addtocart />
-          </Route>
-           <Route path="/">
-            <Home />
-          </Route>
+
+      <Nvbar />
+
+
+
+
+
+
+
+
+
+
+
+    <Switch>
+         <Route exact path="/" component={Home} />
+
+         <Route exact path="/Login" component={Login} />
+
+         <Route exact path="/Account" component={Account} />
+
+         <Route exact path="/Contact" component={Contact} />
+
+         <Route exact path="/Cart" component={Cart} />
+
+
+         <Route exact path="/Nike" component={Nike} />
 
 
         </Switch>
+
+
+
+
    </Router>
   );
 }

@@ -1,87 +1,182 @@
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+
+
+.btn button{
+	display: none;
+}
+
 .navbar{
 	background-color: black;height: 150px;
 clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);
+animation-name: navbar;
+animation-duration:3s;
+display: flex;
 
-   .left{
-   	flex: 50%;
 
-		   	.logo{
+  
+		.logo{
+
+		   		flex: 50%;
 			background-image: url(../../images/logo.svg);
 			height: 80px;
-			width: 80px;margin-bottom: 30px;
+			width: 80px;margin-bottom: 0px;
 			background-size: contain;
 			background-repeat:no-repeat;display: flex;justify-content: center;align-items: center;margin-left: 40px;
+			animation-name:logo;
 
 		}
-   }
-   .right{
-   	flex: 50%;display: flex;justify-content: flex-end;align-items:center;
 
-   	.links{
-   		display: flex;justify-content: flex-end;align-items:center;text-transform: uppercase;
+		#hidden{
+			
+		}
+		.link{
+			text-decoration: none;color: white;margin-right: 30px;text-transform: uppercase;font-size: 20px;
+		}
 
-   		.link{
-   		color:white;text-decoration: none;margin-right: 50px;
-   	     } 
+		
 
-   	     .link.link1{ 
-   	     	color: white;
 
-   	     }
-   	}
 }
-   
-}
+
+	    @keyframes navbar{
+			0%{
+				opacity: 0;transform: translateY(-300px);
+			}
+			100%{
+				opacity: 1;transform: translateX(0px);
+			}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 425px){
+     
+       
+     #btn{ 
+     animation-name: btn;
+     animation-duration: 4s; 
+ }
+
+     @keyframes btn{
+
+     	0%{
+     		opacity: 0;
+     		
+     		    	}
+     	100%
+       {
+       	opacity: 1;
+     		
+     	}
+     }
 
 
+      .navbar{
+	background-color: black;animation-name: navbar;	animation-duration: 2s;height: auto;clip-path: none;
+	border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;display: block;
 
+       
+       .header{display: flex;
 
-.navbar{
-	background-color: black;animation-name: navbar;	animation-duration: 2s;height: auto;clip-path: none;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;
-      .left{
-     	.logo{
+     	.logo{flex: 50%;
 			background-image: url(../../images/logo.svg);
 			height: 60px;
 			width: 60px;margin-bottom: 0px;
 			background-size: contain;
-			background-repeat:no-repeat;display: flex;justify-content: center;align-items: center;margin-left: 10px;
+			background-repeat:no-repeat;
+			animation-name:logo;
+			animation-duration:4s;
 
 				}
+				   @keyframes logo{
 
-			}
+     	0%{
+     		opacity: 0;
+     		
+     		    	}
+     	100%
+       {
+       	opacity: 1;
+     		
+     	}
+     }
+
+
+
+     .btn{
+     	flex: 50%;
+     	display: flex;justify-content: flex-end;
+     	
+     }
+
+	.btn button{
+		display: flex;padding:1px 20px;background-color:white;border:none;outline: none;
+		border-radius:10px;border:1px solid white;
+	   color: black;justify-content: center;align-items:center;
+	}			
+
+			
 		}
 
-		.menu{
-			color: white;
-			background-color:white
+	}
+
+     .links{
+     	display: none;
 
 
-		}
+     }
 
-		.links{height: 100vh;
-			animation-name: navbar;
+	
+	
+		#hidden{height: 100vh;display: flex;flex-direction: column;grid-gap: 50px;background: black;
+			animation-name: hiddens;
 			animation-duration: 2s;
-			display: flex;flex-direction: column;grid-gap: 60px;
+			
+
+
 
 			.link{ font-family: 'Dela Gothic One', cursive;font-weight: 100;
-				text-transform: uppercase;
+			
 				color: white;
 			    text-decoration: none;letter-spacing: 4px;font-size: 22px;margin-bottom: 0px;margin-right: 0px;
 			    
 
 			}
 			.link.link1{
-				animation-name:link1;margin-top: 50px;
+				animation-name:link1;margin-top: 50px;text-align: center;
 				animation-duration:2s;transition: 2s;
 				animation-timing-function: ease-in-out;position:relative;
                  }
@@ -91,7 +186,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 	                  	             -1px -1px 0 white,
 	                  	             1px 0-1px 0 white,
 	                  	             -1px 1px 0 white,
-	                  	             1px 1px 0 white;position:absolute;left: -90px;top:-26px;
+	                  	             1px 1px 0 white;position:absolute;left: 0px;top:-26px;
 	            
 	              animation-name:delay;
 	              animation-duration:5s;
@@ -120,18 +215,18 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 			
 			.link.link2{
 				animation-name:link2;
-				animation-duration:3s;transition: 5s;
+				animation-duration:3s;transition: 5s;text-align: center;
 				animation-timing-function: ease-in-out;position:relative;
 			}
               
 
                .link2:before{
-	                  	content: 'CONTACT';color:white;font-size: 55px;opacity: 0.1;
+	                  	content: 'CONTACT';color:white;font-size: 50px;opacity: 0.1;
 	                  	text-shadow: 1px 1px 0 white,
 	                  	             -1px -1px 0 white,
 	                  	             1px 0-1px 0 white,
 	                  	             -1px 1px 0 white,
-	                  	             1px 1px 0 white;position:absolute;  left: -105px;top:-18px;transform: scale(0.8);
+	                  	             1px 1px 0 white;position:absolute;  left: -12px;top:-18px;transform: scale(0.8);
 	            
 	              animation-name:delay2;
 	              animation-duration:5s;
@@ -160,7 +255,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 
 			.link.link3{
 				animation-name:link3;
-				animation-duration:4s;transition: 2s;
+				animation-duration:4s;transition: 2s;text-align: center;
 				animation-timing-function: ease-in-out;position:relative;
 				
 			   }
@@ -170,7 +265,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 	                  	             -1px -1px 0 white,
 	                  	             1px 0-1px 0 white,
 	                  	             -1px 1px 0 white,
-	                  	             1px 1px 0 white;position:absolute;  left: -80px;top:-22px;
+	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
 	            
 	              animation-name:delay3;
 	              animation-duration:5s;
@@ -197,7 +292,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 
 
                .link.link4{
-				animation-name:link4;
+				animation-name:link4;text-align: center;
 				animation-duration:5s;transition: 5s;
 				animation-timing-function: ease-in-out;position:relative;
 			}
@@ -209,7 +304,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 	                  	             -1px -1px 0 white,
 	                  	             1px 0-1px 0 white,
 	                  	             -1px 1px 0 white,
-	                  	             1px 1px 0 white;position:absolute;  left: -70px;top:-22px;
+	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
 	            
 	              animation-name:delay4;
 	              animation-duration:5s;
@@ -228,6 +323,45 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 
 	                  @supports(-webkit-text-stroke:1px white){
 	                  	 .link4:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+                   
+                     .link.link5{
+				animation-name:link5;text-align: center;
+				animation-duration:5s;transition: 5s;
+				animation-timing-function: ease-in-out;position:relative;
+			}
+              
+
+               .link5:before{
+	                  	content: 'Account';color:white;font-size: 50px;opacity: 0.1;transform: scale(0.8);
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: -10px;top:-22px;
+	            
+	              animation-name:delay5;
+	              animation-duration:5s;
+
+	                  }
+
+	                  @keyframes delay5{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link5:before{
 	                  	 	-webkit-text-stroke:1px white;
 	                  	 	-webkit-text-fill-color:black;
 
@@ -291,14 +425,30 @@ clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%
 			}
           }  
     
+  @keyframes link5{
+			 0%{
+				opacity: 0;transform: translateY(250px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }  
+    
 
 
 	    @keyframes navbar{
 			0%{
-				opacity: 0;
+				opacity: 0;transform: rotateX(100deg) translateY(300px);
 			}
 			100%{
-				opacity: 1;
+				opacity: 1;transform: translateX(0px);
 			}
         }
+
+
+ 
 }

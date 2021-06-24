@@ -1,11 +1,11 @@
 
-const Addtocart = () => {
+const Cart = () => {
   return (
    <div className="one">
        
-Addtocart
+Cart
    </div>
   );
 }
 
-export default Addtocart;
+export default Cart;

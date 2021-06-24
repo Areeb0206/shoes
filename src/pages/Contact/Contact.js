@@ -1,11 +1,18 @@
+const Contact = (props) => {
 
-const Contact = () => {
-  return (
-   <div className="one">
-       
-Contact
-   </div>
-  );
+	return(
+<div className="Contact">Contact
+
+
+   <button onClick={ () => {
+
+   	props.history.push('/');
+
+
+   }}  >About</button>
+
+</div>
+		);
 }
 
 export default Contact;
