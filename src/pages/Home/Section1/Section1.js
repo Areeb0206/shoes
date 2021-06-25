@@ -8,7 +8,7 @@ import './Section1.scss';
 
 
 
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y  } from 'swiper';
+import SwiperCore, { Navigation, Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,9 +18,8 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
-import 'swiper/components/effect-fade/effect-fade.scss';
 
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+SwiperCore.use([Navigation, Pagination]);
 
 
 
