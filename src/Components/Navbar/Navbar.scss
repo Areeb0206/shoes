@@ -10,12 +10,12 @@
 }
 
 .navbar{
-	background-color: black;height: 150px;
-clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);
+	background-color: black;height: auto;/*
+clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);*/border-bottom-left-radius:40px;border-bottom-right-radius:40px;
 animation-name: navbar;
 animation-duration:3s;
 display: flex;
-
+   
 
   
 		.logo{
@@ -23,9 +23,9 @@ display: flex;
 		   		flex: 50%;
 			background-image: url(../../images/logo.svg);
 			height: 80px;
-			width: 80px;margin-bottom: 0px;
+			width: 80px;
 			background-size: contain;
-			background-repeat:no-repeat;display: flex;justify-content: center;align-items: center;margin-left: 40px;
+			background-repeat:no-repeat;margin-left: 40px;position:relative;top: 10px;
 			animation-name:logo;
 
 		}
@@ -87,6 +87,11 @@ display: flex;
        
      #btn{ 
      animation-name: btn;
+     	background-image: url(../../images/menu.svg);
+			height: 40px;
+			width: 40px;margin-bottom: 0px;
+		
+
      animation-duration: 4s; 
  }
 
@@ -102,7 +107,7 @@ display: flex;
      		
      	}
      }
-
+      
 
       .navbar{
 	background-color: black;animation-name: navbar;	animation-duration: 2s;height: auto;clip-path: none;
@@ -111,7 +116,7 @@ display: flex;
        
        .header{display: flex;
 
-     	.logo{flex: 50%;
+     	.logo{flex: 50%;position:relative;top: 0px;
 			background-image: url(../../images/logo.svg);
 			height: 60px;
 			width: 60px;margin-bottom: 0px;
@@ -177,7 +182,7 @@ display: flex;
 			}
 			.link.link1{
 				animation-name:link1;margin-top: 50px;text-align: center;
-				animation-duration:2s;transition: 2s;
+				animation-duration:1s;transition: 2s;
 				animation-timing-function: ease-in-out;position:relative;
                  }
 	                  .link1:before{
@@ -189,7 +194,7 @@ display: flex;
 	                  	             1px 1px 0 white;position:absolute;left: 0px;top:-26px;
 	            
 	              animation-name:delay;
-	              animation-duration:5s;
+	              animation-duration:1.5s;
 
 	                  }
 
@@ -215,7 +220,7 @@ display: flex;
 			
 			.link.link2{
 				animation-name:link2;
-				animation-duration:3s;transition: 5s;text-align: center;
+				animation-duration:1.2s;transition: 5s;text-align: center;
 				animation-timing-function: ease-in-out;position:relative;
 			}
               
@@ -229,7 +234,7 @@ display: flex;
 	                  	             1px 1px 0 white;position:absolute;  left: -12px;top:-18px;transform: scale(0.8);
 	            
 	              animation-name:delay2;
-	              animation-duration:5s;
+	              animation-duration:1.6s;
 
 	                  }
 
@@ -255,7 +260,7 @@ display: flex;
 
 			.link.link3{
 				animation-name:link3;
-				animation-duration:4s;transition: 2s;text-align: center;
+				animation-duration:1.3s;transition: 2s;text-align: center;
 				animation-timing-function: ease-in-out;position:relative;
 				
 			   }
@@ -268,7 +273,7 @@ display: flex;
 	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
 	            
 	              animation-name:delay3;
-	              animation-duration:5s;
+	              animation-duration: 1.5s;
 
 	                  }
 
@@ -293,7 +298,7 @@ display: flex;
 
                .link.link4{
 				animation-name:link4;text-align: center;
-				animation-duration:5s;transition: 5s;
+				animation-duration:1.4s;transition: 5s;
 				animation-timing-function: ease-in-out;position:relative;
 			}
               
@@ -307,7 +312,7 @@ display: flex;
 	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
 	            
 	              animation-name:delay4;
-	              animation-duration:5s;
+	              animation-duration: 1.5s;
 
 	                  }
 
@@ -332,7 +337,7 @@ display: flex;
                    
                      .link.link5{
 				animation-name:link5;text-align: center;
-				animation-duration:5s;transition: 5s;
+				animation-duration:1.5s;transition: 5s;
 				animation-timing-function: ease-in-out;position:relative;
 			}
               
@@ -346,7 +351,7 @@ display: flex;
 	                  	             1px 1px 0 white;position:absolute;  left: -10px;top:-22px;
 	            
 	              animation-name:delay5;
-	              animation-duration:5s;
+	              animation-duration: 1.5s;
 
 	                  }
 

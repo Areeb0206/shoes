@@ -15,15 +15,24 @@ const [open,close]=useState(false);
   <div className="navbar">
 
        <div className="header">
-	        <div className="logo"></div>
+	        <div className="logo">
 
-	        <div className="btn"><button id="btn" onClick={() => close(!open)}>Open</button></div>
+
+
+	        </div>
+
+	        <div className="btn"><button id="btn" onClick={() => close(!open)}>
+                     
+
+	        </button></div>
 	  
        </div>
 
 
 
       <div className="links" id={open ? "hidden" : "open"}>
+
+
 
 			      <NavLink to="/" className="link link1" >Home			      </NavLink> 
 
