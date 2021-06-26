@@ -16,7 +16,7 @@ import Account from './pages/Account/Account';
 
 import Contact from './pages/Contact/Contact';
 
-import Nvbar from '../../Components/Navbar/Navbar';
+import Nvbar from './Components/Navbar/Navbar';
 
 
 import Cart from './pages/Cart/Cart';
