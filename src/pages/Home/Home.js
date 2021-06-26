@@ -10,7 +10,7 @@ const Home = () => {
   return (
    <div className="Section">
    
-   
+    
     <Nvbar />
     <Section1 />
    

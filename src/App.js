@@ -19,6 +19,8 @@ import Contact from './pages/Contact/Contact';
 
 import Cart from './pages/Cart/Cart';
 
+import Nike from './pages/Home/Section1/Nike/Nike';
+
 
 
 
@@ -41,9 +43,11 @@ const App = () => {
 
          <Route exact path="/Cart" component={Cart} />
 
+          <Route exact path="/Nike" component={Nike} />
+
 
       
-         <Route exact path="/shoes" component={Home} />
+         <Route exact path="/7seas" component={Home} />
 
 
 

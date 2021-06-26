@@ -34,7 +34,7 @@ const [open,close]=useState(false);
 
 
 
-			      <NavLink to="/shoes" className="link link1" >Home			      </NavLink> 
+			      <NavLink to="/7seas" className="link link1" >Home			      </NavLink> 
 
 			      <NavLink to="/Contact" className="link link2" >Contact			      </NavLink> 
 			     
