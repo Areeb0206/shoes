@@ -1,0 +1,114 @@
+.nike{height: 100px;border-bottom-left-radius: 40px;border-bottom-right-radius:40px;
+		width: 100%;
+		background-color: black;
+
+	
+
+   .header{height: auto;position:relative;
+   	width: 100%;display: flex;justify-content: space-around;
+   	
+
+   	 .back{
+           button{background-image: url(../../../../images/back.svg);
+            border:none;
+            outline: none;
+position:relative;top: 16px;
+           	padding: 26px;border-radius: 10px;background-color:transparent;
+           }
+   	 }
+
+	
+
+	.logo{
+
+		   		
+			background-image: url(../../../../images/logo.svg);
+			height: 100px;
+			width: 80px;position: relative;top: 10px;
+			background-size: contain;
+			background-repeat:no-repeat;
+			animation-name:logo;
+
+		}
+      
+      .cart{background-image: url(../../../../images/cart.svg);
+	height: 70px;
+      	width: 70px; position:relative;top: 10px;
+background-size:cover;background-repeat:no-repeat;
+      }
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 425px){
+
+
+
+
+	.nike{height: 80px;border-bottom-left-radius: 40px;border-bottom-right-radius:40px;
+		width: 100%;
+		background-color: black;
+
+	
+
+   .header{height: auto;
+   	width: 100%;display: flex;justify-content: space-around;
+   	
+
+   	 .back{
+           button{background-image: url(../../../../images/back.svg);
+            border:none;
+            outline: none;position:relative;top: 16px;
+
+           	padding: 14px;border-radius: 10px;background-color:transparent;
+           }
+   	 }
+
+	
+
+	.logo{position: relative;top: 0px;
+
+		   		
+			background-image: url(../../../../images/logo.svg);
+			height: 60px;
+			width: 60px;margin-top: 10px;
+			background-size: contain;
+			background-repeat:no-repeat;
+			animation-name:logo;
+
+		}
+      
+    .cart{background-image: url(../../../../images/cart.svg);
+	height: 50px;position:relative;top: 10px;
+      	width: 50px; 
+background-size:cover;background-repeat:no-repeat;
+      }
+
+
+	}
+
+}
+
+
+
+
+}
