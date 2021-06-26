@@ -47,7 +47,7 @@ const App = () => {
 
 
       
-         <Route exact path="/7seas" component={Home} />
+         <Route exact path="/shoes" component={Home} />
 
 
 
