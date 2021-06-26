@@ -43,12 +43,11 @@ const Section1 = () => {
 
 
     <Swiper className="swiper"
-      spaceBetween={50}
+      spaceBetween={20}
       slidesPerView={2}
       loop={true}
       centeredSlides={true}
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+   
    
     >
       <SwiperSlide className="slide">
