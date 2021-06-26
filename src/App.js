@@ -28,14 +28,7 @@ const App = () => {
 
 
    <Router>
-         
-
-
-
-     
-
-
-
+ 
     <Switch>
 
         
@@ -50,7 +43,7 @@ const App = () => {
 
 
       
-         <Route exact path="/" component={Home} />
+         <Route exact path="/shoes" component={Home} />
 
 
 

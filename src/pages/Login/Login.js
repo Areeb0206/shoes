@@ -6,7 +6,7 @@ const Login = () => {
 	const [isAuth, setIsAuth] = useState(true);	
 
 	if(!isAuth){
-		return <Redirect to="/" />
+		return <Redirect to="/shoes" />
 	}
 
 

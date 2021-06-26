@@ -10,7 +10,7 @@ const Contact = (props) => {
 
    <button onClick={ () => {
 
-   	props.history.push('/');
+   	props.history.push('/shoes');
 
 
    }}  >About</button>
