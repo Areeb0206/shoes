@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/shoes/static/css/main.b65d9f6c.chunk.css",
-    "main.js": "/shoes/static/js/main.5137a968.chunk.js",
-    "main.js.map": "/shoes/static/js/main.5137a968.chunk.js.map",
+    "main.js": "/shoes/static/js/main.221d8b94.chunk.js",
+    "main.js.map": "/shoes/static/js/main.221d8b94.chunk.js.map",
     "runtime-main.js": "/shoes/static/js/runtime-main.923b9a0a.js",
     "runtime-main.js.map": "/shoes/static/js/runtime-main.923b9a0a.js.map",
-    "static/js/2.acb81bad.chunk.js": "/shoes/static/js/2.acb81bad.chunk.js",
-    "static/js/2.acb81bad.chunk.js.map": "/shoes/static/js/2.acb81bad.chunk.js.map",
+    "static/js/2.00e2eb04.chunk.js": "/shoes/static/js/2.00e2eb04.chunk.js",
+    "static/js/2.00e2eb04.chunk.js.map": "/shoes/static/js/2.00e2eb04.chunk.js.map",
     "index.html": "/shoes/index.html",
     "static/css/main.b65d9f6c.chunk.css.map": "/shoes/static/css/main.b65d9f6c.chunk.css.map",
-    "static/js/2.acb81bad.chunk.js.LICENSE.txt": "/shoes/static/js/2.acb81bad.chunk.js.LICENSE.txt",
+    "static/js/2.00e2eb04.chunk.js.LICENSE.txt": "/shoes/static/js/2.00e2eb04.chunk.js.LICENSE.txt",
     "static/media/Navbar.scss": "/shoes/static/media/menu.ee7bd90d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.923b9a0a.js",
-    "static/js/2.acb81bad.chunk.js",
+    "static/js/2.00e2eb04.chunk.js",
     "static/css/main.b65d9f6c.chunk.css",
-    "static/js/main.5137a968.chunk.js"
+    "static/js/main.221d8b94.chunk.js"
   ]
 }
