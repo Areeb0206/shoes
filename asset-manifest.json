@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/shoes/static/css/main.7b424afb.chunk.css",
-    "main.js": "/shoes/static/js/main.6a0e64cb.chunk.js",
-    "main.js.map": "/shoes/static/js/main.6a0e64cb.chunk.js.map",
+    "main.js": "/shoes/static/js/main.c636e4c0.chunk.js",
+    "main.js.map": "/shoes/static/js/main.c636e4c0.chunk.js.map",
     "runtime-main.js": "/shoes/static/js/runtime-main.923b9a0a.js",
     "runtime-main.js.map": "/shoes/static/js/runtime-main.923b9a0a.js.map",
-    "static/js/2.52f09341.chunk.js": "/shoes/static/js/2.52f09341.chunk.js",
-    "static/js/2.52f09341.chunk.js.map": "/shoes/static/js/2.52f09341.chunk.js.map",
+    "static/js/2.2400dd3f.chunk.js": "/shoes/static/js/2.2400dd3f.chunk.js",
+    "static/js/2.2400dd3f.chunk.js.map": "/shoes/static/js/2.2400dd3f.chunk.js.map",
     "index.html": "/shoes/index.html",
     "static/css/main.7b424afb.chunk.css.map": "/shoes/static/css/main.7b424afb.chunk.css.map",
-    "static/js/2.52f09341.chunk.js.LICENSE.txt": "/shoes/static/js/2.52f09341.chunk.js.LICENSE.txt"
+    "static/js/2.2400dd3f.chunk.js.LICENSE.txt": "/shoes/static/js/2.2400dd3f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.923b9a0a.js",
-    "static/js/2.52f09341.chunk.js",
+    "static/js/2.2400dd3f.chunk.js",
     "static/css/main.7b424afb.chunk.css",
-    "static/js/main.6a0e64cb.chunk.js"
+    "static/js/main.c636e4c0.chunk.js"
   ]
 }
