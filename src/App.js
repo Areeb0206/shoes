@@ -25,10 +25,13 @@ import Cart from './pages/Cart/Cart';
 
 const App = () => {
   return (
+
+<div><Home />
+
    <Router>
          
 
-         <Home />
+
 
      
 
@@ -58,6 +61,8 @@ const App = () => {
 
 
    </Router>
+
+   </div>
   );
 }
 
