@@ -25,8 +25,13 @@ import Cart from './pages/Cart/Cart';
 
 const App = () => {
   return (
-   <Router>
+
+
+  	<>
+
+  	
         <button><Home /></button>
+   <Router>
 
     <Switch>
 
@@ -50,6 +55,8 @@ const App = () => {
 
 
    </Router>
+
+   </>
   );
 }
 
