@@ -1,0 +1,2 @@
+(this.webpackJsonpshoes=this.webpackJsonpshoes||[]).push([[0],{9:function(e,t,n){"use strict";n.r(t);var s=n(1),c=n.n(s),r=n(3),o=n.n(r),i=n(0),a=function(){return Object(i.jsx)(i.Fragment,{children:"a"})};o.a.render(Object(i.jsx)(c.a.StrictMode,{children:Object(i.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.81d5d41e.chunk.js.map
