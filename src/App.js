@@ -26,7 +26,6 @@ import Cart from './pages/Cart/Cart';
 const App = () => {
   return (
 
-<div><Home />
 
    <Router>
          
@@ -40,7 +39,6 @@ const App = () => {
     <Switch>
 
         
-         <Route exact path="/" component={Home} />
 
          <Route exact path="/Login" component={Login} />
 
@@ -50,6 +48,9 @@ const App = () => {
 
          <Route exact path="/Cart" component={Cart} />
 
+
+      
+         <Route exact path="/" component={Home} />
 
 
 
@@ -62,7 +63,6 @@ const App = () => {
 
    </Router>
 
-   </div>
   );
 }
 
