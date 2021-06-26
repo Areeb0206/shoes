@@ -23,6 +23,7 @@ import Cart from './pages/Cart/Cart';
 import Nike from './pages/Home/Section1/Nike/Nike';
 
 import Puma from './pages/Home/Section1/Puma/Puma';
+
 import Adidas from './pages/Home/Section1/Adidas/Adidas';
 
 
