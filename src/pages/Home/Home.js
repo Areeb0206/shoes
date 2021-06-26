@@ -9,9 +9,10 @@ const Home = () => {
 
   return (
    <div className="section">
-   <section1 />
+   
    
     <Nvbar />
+    <section1 />
    
    </div>
   );
