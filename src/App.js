@@ -26,21 +26,10 @@ import Cart from './pages/Cart/Cart';
 const App = () => {
   return (
    <Router>
-         
-
-     
-
-
-
+        <button><Home /></button>
 
     <Switch>
 
-
-            
-            
-
-
-           <Route exact path="/" component={Home} />
          <Route exact path="/Login" component={Login} />
 
          <Route exact path="/Account" component={Account} />
@@ -50,6 +39,9 @@ const App = () => {
          <Route exact path="/Cart" component={Cart} />
 
 
+
+
+           <Route exact path="/" component={Home} />
 
 
         </Switch>
