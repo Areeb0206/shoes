@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Nvbar from '../../Components/Navbar/Navbar';
 import './Home.scss';
 
 
@@ -7,7 +8,8 @@ const Home = () => {
 
   return (
    <div className="section">
- home
+    <Nvbar />
+   
    </div>
   );
 }

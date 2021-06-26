@@ -1,15 +1,15 @@
 import React from "react";
-/*import {
+import {
   BrowserRouter as Router,
   Switch,
   Route
   
-} from "react-router-dom";*/
+} from "react-router-dom";
 
 import './App.scss';
 
 import Home from './pages/Home/Home';
-/*
+
 import Login from './pages/Login/Login';
 
 import Account from './pages/Account/Account';
@@ -18,23 +18,15 @@ import Contact from './pages/Contact/Contact';
 
 
 import Cart from './pages/Cart/Cart';
-*/
+
 
 
 
 
 const App = () => {
-   
-
   return (
-
-
-  	<>
-
-
-       <Home />
-       /*
    <Router>
+        <button><Home /></button>
 
     <Switch>
 
@@ -57,9 +49,7 @@ const App = () => {
 
 
 
-   </Router>*/
-
-   </>
+   </Router>
   );
 }
 
