@@ -47,7 +47,7 @@ const App = () => {
 
 
 
-           <Route exact path="/shoes" component={Home} />
+           <Route exact path="/" component={Home} />
 
 
         </Switch>
