@@ -34,6 +34,9 @@ const App = () => {
 
     <Switch>
 
+         
+           <Route exact path="/" component={Home} />
+
          <Route exact path="/Login" component={Login} />
 
          <Route exact path="/Account" component={Account} />
@@ -45,7 +48,6 @@ const App = () => {
 
 
 
-           <Route exact path="/shoes" component={Home} />
 
 
         </Switch>
