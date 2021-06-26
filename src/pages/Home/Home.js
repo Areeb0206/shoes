@@ -1,18 +1,18 @@
 import React from 'react';
 
 import Nvbar from '../../Components/Navbar/Navbar';
-import section1 from './section1/section1';
+import Section1 from './Section1/Section1';
 import './Home.scss';
 
 
 const Home = () => {
 
   return (
-   <div className="section">
+   <div className="Section">
    
    
     <Nvbar />
-    <section1 />
+    <Section1 />
    
    </div>
   );
