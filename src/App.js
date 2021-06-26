@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,13 +24,15 @@ import Cart from './pages/Cart/Cart';
 
 
 const App = () => {
+   
+
   return (
 
 
   	<>
 
-  	
-        <button><Home /></button>
+
+       <Home />
    <Router>
 
     <Switch>
