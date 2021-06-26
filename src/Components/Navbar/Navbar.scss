@@ -1,0 +1,457 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+
+.btn button{
+	display: none;
+}
+
+.navbar{
+	background-color: black;height: auto;/*
+clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);*/border-bottom-left-radius:40px;border-bottom-right-radius:40px;
+animation-name: navbar;
+animation-duration:3s;
+display: flex;
+   
+
+  
+		.logo{
+
+		   		flex: 50%;
+			background-image: url(../../images/logo.svg);
+			height: 80px;
+			width: 80px;
+			background-size: contain;
+			background-repeat:no-repeat;margin-left: 40px;position:relative;top: 10px;
+			animation-name:logo;
+
+		}
+
+		#hidden{
+			
+		}
+		.link{
+			text-decoration: none;color: white;margin-right: 30px;text-transform: uppercase;font-size: 20px;
+		}
+
+		
+
+
+}
+
+	    @keyframes navbar{
+			0%{
+				opacity: 0;transform: translateY(-300px);
+			}
+			100%{
+				opacity: 1;transform: translateX(0px);
+			}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 425px){
+     
+       
+     #btn{ 
+     animation-name: btn;
+     	background-image: url(../../images/menu.svg);
+			height: 40px;
+			width: 40px;margin-bottom: 0px;
+		
+
+     animation-duration: 4s; 
+ }
+
+     @keyframes btn{
+
+     	0%{
+     		opacity: 0;
+     		
+     		    	}
+     	100%
+       {
+       	opacity: 1;
+     		
+     	}
+     }
+      
+
+      .navbar{
+	background-color: black;animation-name: navbar;	animation-duration: 2s;height: auto;clip-path: none;
+	border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;display: block;
+
+       
+       .header{display: flex;
+
+     	.logo{flex: 50%;position:relative;top: 0px;
+			background-image: url(../../images/logo.svg);
+			height: 60px;
+			width: 60px;margin-bottom: 0px;
+			background-size: contain;
+			background-repeat:no-repeat;
+			animation-name:logo;
+			animation-duration:4s;
+
+				}
+				   @keyframes logo{
+
+     	0%{
+     		opacity: 0;
+     		
+     		    	}
+     	100%
+       {
+       	opacity: 1;
+     		
+     	}
+     }
+
+
+
+		     .btn{
+		     	flex: 50%;
+		     	display: flex;justify-content: flex-end;
+		     	
+		     }
+
+			.btn button{
+				display: flex;padding:0px 0px;border:none;outline: none;
+				border-radius:5px;border:1px solid white;
+			   color: black;justify-content: center;align-items:center;
+}
+}
+
+	}
+
+     .links{
+     	display: none;
+
+
+     }
+
+	
+	
+		#hidden{height: 100vh;display: flex;flex-direction: column;grid-gap: 50px;background: black;
+			animation-name: hiddens;
+			animation-duration: 2s;
+			
+
+
+
+			.link{ font-family: 'Dela Gothic One', cursive;font-weight: 100;
+			
+				color: white;
+			    text-decoration: none;letter-spacing: 4px;font-size: 22px;margin-bottom: 0px;margin-right: 0px;
+			    
+
+			}
+			.link.link1{
+				animation-name:link1;margin-top: 50px;text-align: center;
+				animation-duration:1s;transition: 2s;
+				animation-timing-function: ease-in-out;position:relative;
+                 }
+	                  .link1:before{
+	                  	content: 'HOME';color:white;font-size: 70px;opacity: 0.1;transform: scale(0.8);
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;left: 0px;top:-26px;
+	            
+	              animation-name:delay;
+	              animation-duration:1.5s;
+
+	                  }
+
+	                  @keyframes delay{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link1:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  }
+
+
+			
+			.link.link2{
+				animation-name:link2;
+				animation-duration:1.2s;transition: 5s;text-align: center;
+				animation-timing-function: ease-in-out;position:relative;
+			}
+              
+
+               .link2:before{
+	                  	content: 'CONTACT';color:white;font-size: 50px;opacity: 0.1;
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: -12px;top:-18px;transform: scale(0.8);
+	            
+	              animation-name:delay2;
+	              animation-duration:1.6s;
+
+	                  }
+
+	                  @keyframes delay2{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link2:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+
+
+			.link.link3{
+				animation-name:link3;
+				animation-duration:1.3s;transition: 2s;text-align: center;
+				animation-timing-function: ease-in-out;position:relative;
+				
+			   }
+			  .link3:before{
+	                  	content: 'LOGIN';color:white;font-size: 60px;opacity: 0.1;transform: scale(0.8);
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
+	            
+	              animation-name:delay3;
+	              animation-duration: 1.5s;
+
+	                  }
+
+	                  @keyframes delay3{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link3:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+
+               .link.link4{
+				animation-name:link4;text-align: center;
+				animation-duration:1.4s;transition: 5s;
+				animation-timing-function: ease-in-out;position:relative;
+			}
+              
+
+               .link4:before{
+	                  	content: 'CART';color:white;font-size: 60px;opacity: 0.1;transform: scale(0.8);
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: 0px;top:-22px;
+	            
+	              animation-name:delay4;
+	              animation-duration: 1.5s;
+
+	                  }
+
+	                  @keyframes delay4{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link4:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+                   
+                     .link.link5{
+				animation-name:link5;text-align: center;
+				animation-duration:1.5s;transition: 5s;
+				animation-timing-function: ease-in-out;position:relative;
+			}
+              
+
+               .link5:before{
+	                  	content: 'Account';color:white;font-size: 50px;opacity: 0.1;transform: scale(0.8);
+	                  	text-shadow: 1px 1px 0 white,
+	                  	             -1px -1px 0 white,
+	                  	             1px 0-1px 0 white,
+	                  	             -1px 1px 0 white,
+	                  	             1px 1px 0 white;position:absolute;  left: -10px;top:-22px;
+	            
+	              animation-name:delay5;
+	              animation-duration: 1.5s;
+
+	                  }
+
+	                  @keyframes delay5{
+	                  	50%{
+	                  	opacity: 0;
+	                  }
+		
+
+
+	                  }
+
+
+	                  @supports(-webkit-text-stroke:1px white){
+	                  	 .link5:before{
+	                  	 	-webkit-text-stroke:1px white;
+	                  	 	-webkit-text-fill-color:black;
+
+	                  	 }
+	                  } 
+
+	             
+
+		
+        }
+	
+	
+	     @keyframes link1{
+			 0%{
+				opacity: 0;transform: translateY(100px);transition: 1s;
+			       
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }
+      
+       @keyframes link2{
+				 0%{
+				opacity: 0;transform: translateY(150px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }
+
+
+           @keyframes link3{
+			 0%{
+				opacity: 0;transform: translateY(200px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }  
+    
+
+           @keyframes link4{
+			 0%{
+				opacity: 0;transform: translateY(250px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }  
+    
+  @keyframes link5{
+			 0%{
+				opacity: 0;transform: translateY(250px);transition: 1s;
+			       
+			}
+			50%{
+				opacity: 0;transition: 2s;
+			}
+			100%{
+				opacity: 1;transition: 1s;
+			}
+          }  
+    
+
+
+	    @keyframes navbar{
+			0%{
+				opacity: 0;transform: rotateX(100deg) translateY(300px);
+			}
+			100%{
+				opacity: 1;transform: translateX(0px);
+			}
+        }
+
+
+ 
+}

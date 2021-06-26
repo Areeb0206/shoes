@@ -1,5 +1,5 @@
 import React from "react";
-/*import {
+import {
   BrowserRouter as Router,
   Switch,
   Route
@@ -20,14 +20,14 @@ import Contact from './pages/Contact/Contact';
 import Cart from './pages/Cart/Cart';
 
 
-import Nike from './pages/Home/Section1/Nike/Nike';*/
+import Nike from './pages/Home/Section1/Nike/Nike';
 
 
 
 
 const App = () => {
   return (
-  /* <Router>
+   <Router>
          
 
      
@@ -56,8 +56,7 @@ const App = () => {
 
 
 
-   </Router>*/<>
-   a</>
+   </Router>
   );
 }
 
