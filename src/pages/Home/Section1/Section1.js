@@ -4,22 +4,23 @@ import React from 'react';
 import { useHistory } from "react-router-dom";
 
 
-import './Section1.scss';
 
 
+/*
 
 import SwiperCore, { Navigation, Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+*//*
 import 'swiper/swiper.scss';
 import "swiper/swiper.min.css";
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+*/import './Section1.scss';
 
-
-SwiperCore.use([Navigation, Pagination]);
+/*
+SwiperCore.use([Navigation, Pagination]);*/
 
 
 
@@ -42,22 +43,10 @@ const Section1 = () => {
 
 
 
-     <Swiper className="swiper"
-     
-      spaceBetween={20}
-      slidesPerView={2}
-      centeredSlides={true}
-
-      pagination={{ "dynamicBullets":true}}
-      loop={true}
-
-     
-    >
-      <SwiperSlide className="slide slide1">
 
 
-
-             <div className="nike">
+<div className="slide">
+     <div className="nike">
 
     <button onClick={() =>{ nike.push('/Nike')}}>Nike</button>
 
@@ -67,8 +56,7 @@ const Section1 = () => {
 
 
 
-      </SwiperSlide>
-      <SwiperSlide className="slide slide2">
+     
 
 
 
@@ -82,8 +70,7 @@ const Section1 = () => {
 
 
 
-      </SwiperSlide>
-      <SwiperSlide className="slide slide3">
+     
 
 
 
@@ -98,8 +85,8 @@ const Section1 = () => {
 
 
 
-      </SwiperSlide>
-      <SwiperSlide className="slide slide4">
+     
+      
 
  
 
@@ -112,12 +99,10 @@ const Section1 = () => {
 
     </div>
 
-
-         </SwiperSlide>
+</div>
+        
       
-    </Swiper>
-
-
+ 
 </div>
   
 
