@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/shoes/static/css/main.7a140ac2.chunk.css",
-    "main.js": "/shoes/static/js/main.16d3bc56.chunk.js",
-    "main.js.map": "/shoes/static/js/main.16d3bc56.chunk.js.map",
+    "main.css": "/shoes/static/css/main.1788796f.chunk.css",
+    "main.js": "/shoes/static/js/main.5cd8b5f7.chunk.js",
+    "main.js.map": "/shoes/static/js/main.5cd8b5f7.chunk.js.map",
     "runtime-main.js": "/shoes/static/js/runtime-main.923b9a0a.js",
     "runtime-main.js.map": "/shoes/static/js/runtime-main.923b9a0a.js.map",
     "static/css/2.701e1818.chunk.css": "/shoes/static/css/2.701e1818.chunk.css",
-    "static/js/2.d26b74f0.chunk.js": "/shoes/static/js/2.d26b74f0.chunk.js",
-    "static/js/2.d26b74f0.chunk.js.map": "/shoes/static/js/2.d26b74f0.chunk.js.map",
+    "static/js/2.798b3656.chunk.js": "/shoes/static/js/2.798b3656.chunk.js",
+    "static/js/2.798b3656.chunk.js.map": "/shoes/static/js/2.798b3656.chunk.js.map",
     "index.html": "/shoes/index.html",
     "static/css/2.701e1818.chunk.css.map": "/shoes/static/css/2.701e1818.chunk.css.map",
-    "static/css/main.7a140ac2.chunk.css.map": "/shoes/static/css/main.7a140ac2.chunk.css.map",
-    "static/js/2.d26b74f0.chunk.js.LICENSE.txt": "/shoes/static/js/2.d26b74f0.chunk.js.LICENSE.txt",
+    "static/css/main.1788796f.chunk.css.map": "/shoes/static/css/main.1788796f.chunk.css.map",
+    "static/js/2.798b3656.chunk.js.LICENSE.txt": "/shoes/static/js/2.798b3656.chunk.js.LICENSE.txt",
     "static/media/Section1.scss": "/shoes/static/media/puma.a0b7bbe9.svg",
+    "static/media/Adidas.scss": "/shoes/static/media/logo.c2d511fb.svg",
     "static/media/Navbar.scss": "/shoes/static/media/menu.ee7bd90d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.923b9a0a.js",
     "static/css/2.701e1818.chunk.css",
-    "static/js/2.d26b74f0.chunk.js",
-    "static/css/main.7a140ac2.chunk.css",
-    "static/js/main.16d3bc56.chunk.js"
+    "static/js/2.798b3656.chunk.js",
+    "static/css/main.1788796f.chunk.css",
+    "static/js/main.5cd8b5f7.chunk.js"
   ]
 }
