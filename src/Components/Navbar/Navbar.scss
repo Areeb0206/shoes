@@ -13,7 +13,7 @@
 	background-color: black;height: auto;/*
 clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);*/border-bottom-left-radius:40px;border-bottom-right-radius:40px;
 animation-name: navbar;
-animation-duration:3s;
+animation-duration:1s;transition: 3s;
 display: flex;
    
 
@@ -43,11 +43,14 @@ display: flex;
 }
 
 	    @keyframes navbar{
-			0%{
-				opacity: 0;transform: translateY(-300px);
+			0%{display: none;opacity: 0;
+				/*opacity: 0;transform: translateY(-300px);transition: 2s;display: none;*/
 			}
-			100%{
-				opacity: 1;transform: translateX(0px);
+			90%{
+				opacity: 0;transition: 3s;
+			}
+			100%{display: none;opacity: 1;transition: 2s;
+				/*opacity: 1;transform: translateX(0px);transition: 2s;display: none;*/
 			}
         }
 

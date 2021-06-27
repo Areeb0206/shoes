@@ -14,10 +14,19 @@ const Login = () => {
 <div className="Login">Login
     
     <div>
+<br />
+<br />
+<br />
+<br />
     <input />
 <br />
     <input />
     <br />
+    
+<br />
+<br />
+<br />
+<br />
       <button onClick={() => setIsAuth(false)}   >LOGIN</button>
 
     </div>

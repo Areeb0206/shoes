@@ -31,8 +31,13 @@ import Adidas from './pages/Home/Section1/Adidas/Adidas';
 
 const App = () => {
   return (
-
-
+    <>
+   <div className="first">
+    <div className="hlo"></div>
+   </div>
+  
+   <div>
+     
    <Router>
  
     <Switch>
@@ -68,6 +73,8 @@ const App = () => {
 
    </Router>
 
+   </div>
+</>
   );
 }
 

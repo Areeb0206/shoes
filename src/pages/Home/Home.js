@@ -8,13 +8,19 @@ import './Home.scss';
 const Home = () => {
 
   return (
+
+  	<>
+
+  	
    <div className="Section">
+
    
     
     <Nvbar />
     <Section1 />
    
    </div>
+   </>
   );
 }
 
