@@ -13,7 +13,7 @@
 	background-color: black;height: auto;/*
 clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 100%, 47% 60%, 50% 35%, 53% 60%, 0 100%, 0% 35%, 0 0);*/border-bottom-left-radius:40px;border-bottom-right-radius:40px;
 animation-name: navbar;
-animation-duration:1s;transition: 3s;
+animation-duration:1s;transition: ease-in-out 6s;
 display: flex;
    
 
@@ -23,7 +23,7 @@ display: flex;
 		   		flex: 50%;
 			background-image: url(../../images/logo.svg);
 			height: 80px;
-			width: 80px;
+			width: 80px; 
 			background-size: contain;
 			background-repeat:no-repeat;margin-left: 40px;position:relative;top: 10px;
 			animation-name:logo;
@@ -43,13 +43,13 @@ display: flex;
 }
 
 	    @keyframes navbar{
-			0%{display: none;opacity: 0;
+			0%{display: none;opacity: 0;transition:ease-in-out 6s;transform: rotateX(100deg) translateY(300px);
 				/*opacity: 0;transform: translateY(-300px);transition: 2s;display: none;*/
 			}
 			90%{
-				opacity: 0;transition: 3s;
+				opacity: 0;transition:ease-in-out 6s;transform: rotateX(100deg) translateY(300px);
 			}
-			100%{display: none;opacity: 1;transition: 2s;
+			100%{opacity: 1;transition:ease-in-out 6s;transform: translate(0px);
 				/*opacity: 1;transform: translateX(0px);transition: 2s;display: none;*/
 			}
         }

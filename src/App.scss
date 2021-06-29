@@ -35,14 +35,14 @@ animation-duration:5s;animation-timing-function:ease-in-out;
 .hlo{
 	background-image: url(images/logo.svg);
 
-	height: 200px;width: 200px;background-size: contain;
+	height: 0px;width: 0px;background-size: contain;
 		animation-name: hlo;position:absolute;
 	animation-duration: 5s;animation-timing-function: ease-in-out;
 opacity: 0;transition: 2s;
 }
 .hlo:before{
-	content: "WELCOME TO 7 SEAS !";
-	font-size: 40px;color: white;left: 70%;top: 50%;position:absolute;transform: translate(-70%,-50%);
+	content: "WELCOME TO 7 SEAS !";width: 70%;letter-spacing: 7px;
+	font-size: 40px;color: white;left: 99%;top: 50%;position:absolute;transform: translate(-70%,-50%);
 	animation-name:firstbefore;
 	animation-duration:4.1s;opacity: 0;animation-timing-function: ease-in-out;transition: 2s;
 }

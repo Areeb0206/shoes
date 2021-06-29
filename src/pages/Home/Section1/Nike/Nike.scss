@@ -1,15 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .nike{height: 100px;border-bottom-left-radius: 40px;border-bottom-right-radius:40px;
 		width: 100%;
 		background-color: black;
+    
 
-	
+
+    .products{
+    	height: auto;width: 90%;margin: auto;margin-top: 70px;font-family: 'Roboto',sans-serif;
+
+    	.product-heading{
+    		font-size: 35px;
+
+    	}
+    	.product-text{font-size: 20px;
+    		
+    		span
+    		{
+    			color: #66fcf1;font-weight: 900;font-size: 25px;
+    		}
+    	  } 
+
+
+    	
+
+
+    	.all-products{
+    		width: 90%;height: auto;
+            margin: auto;
+            display: grid;grid-template-columns: 22% 22% 22% 22% ;grid-gap: 5%;
+    	
+
+                .product-box{
+                	width: 100%;display: grid;grid-template-rows: 250px;
+                	.products{
+                         
+                		width: 100%;height: auto;border:	1px solid #66fcf1;border-radius:5px;
+                        
+                        .product-logo{margin-top: 10px;
+                        	width: 40px;height: 40px;
+                        	img{
+
+                        		width: 90px;height: 40px;
+                        	   background-size:contain;background-repeat:no-repeat;
+                        	}
+                        }
+
+                		.products-images{
+                			img{
+                			  width: 100%;
+                                } 
+
+                		}
+                		.products-info{margin-bottom: 10px;margin-top: 20px;
+                			width:100%;display: flex;justify-content: space-around;
+                			.left{
+                			
+                		          	h3
+                		          	{
+                		          		flex: 50%;
+                				       font-size: 13px;
+                				      }
+                				       .info{font-weight: 900;
+
+                				       }
+                				       .type{font-weight: 100;
+
+                				       }
+                				       .amount{font-weight: 900;
+
+                				       }
+                			        
+                		}
+                		
+                				button{
+                					border:none;outline: none;width: 60px;height:35px;
+                					border-radius:5px;margin-top: 23px;
+                				}
+                				button:hover{
+                					background-color:#66fcf1;
+                				}
+                			}
+
+                		
+                	}
+                }
+
+
+               }
+    }	
 
    .header{height: auto;position:relative;
    	width: 100%;display: flex;justify-content: space-around;
    	
 
    	 .back{
-           button{background-image: url(../../../../images/back.svg);
+           button{background-image: url(../../../../images/nikeback.svg);
             border:none;
             outline: none;
 position:relative;top: 16px;
@@ -22,7 +112,7 @@ position:relative;top: 16px;
 	.logo{
 
 		   		
-			background-image: url(../../../../images/logo.svg);
+			background-image: url(../../../../images/nikelogo.svg);
 			height: 100px;
 			width: 80px;position: relative;top: 10px;
 			background-size: contain;
@@ -31,7 +121,7 @@ position:relative;top: 16px;
 
 		}
       
-      .cart{background-image: url(../../../../images/cart.svg);
+      .cart{background-image: url(../../../../images/nikecart.svg);
 	height: 70px;
       	width: 70px; position:relative;top: 10px;
 background-size:cover;background-repeat:no-repeat;
@@ -40,7 +130,6 @@ background-size:cover;background-repeat:no-repeat;
 	}
 
 }
-
 
 
 
@@ -68,6 +157,91 @@ background-size:cover;background-repeat:no-repeat;
 		width: 100%;
 		background-color: black;
 
+
+    .products{
+    	height: auto;width: 95%;margin: auto;margin-top: 50px;font-family: 'Roboto',sans-serif;
+
+    	.product-heading{
+    		font-size: 30px;
+
+    	}
+    	.product-text{font-size: 15px;
+    		
+    		span
+    		{
+    			color: #66fcf1;font-weight: 900;font-size: 20px;
+    		}
+    	  } 
+
+
+    	
+
+
+    	.all-products{
+    		width: 100%;height: auto;
+            margin: auto;
+            display: grid;grid-template-columns: 30% 30% 30% ;grid-gap:4%;
+    	
+
+                .product-box{
+                	width: 100%;display: grid;grid-template-rows: 200px;
+                	.products{
+                         
+                		width: 100%;height: auto;border:	1px solid #66fcf1;border-radius:5px;
+                        
+                        .product-logo{margin-top: 5px;
+                        	width: 30px;height: 30px;
+                        	img{
+
+                        		width: 50px;height: 40px;
+                        	   background-size:contain;background-repeat:no-repeat;
+                        	}
+                        }
+
+                		.products-images{margin-top: 10px;
+                			img{
+                			  width: 100%;
+                                } 
+
+                		}
+                		.products-info{margin-bottom: 10px;margin-top: 20px;
+                			width:100%;display: flex;justify-content: space-around;
+                			.left{
+                			
+                		          	h3
+                		          	{
+                		          		flex: 50%;
+                				       font-size: 10px;
+                				      }
+                				       .info{font-weight: 900;
+
+                				       }
+                				       .type{font-weight: 100;
+
+                				       }
+                				       .amount{font-weight: 900;
+
+                				       }
+                			        
+                		}
+                		
+                				button{
+                					border:none;outline: none;width: 40px;height:30px;
+                					border-radius:5px;margin-top: 23px;font-size: 13px;background-color:transparent;border:1px solid #66fcf1;
+                				}
+                				button:hover{
+                					background-color:#66fcf1;
+                				}
+                			}
+
+                		
+                	}
+                }
+
+
+               }
+           }
+
 	
 
    .header{height: auto;
@@ -75,7 +249,7 @@ background-size:cover;background-repeat:no-repeat;
    	
 
    	 .back{
-           button{background-image: url(../../../../images/back.svg);
+           button{background-image: url(../../../../images/nikeback.svg);
             border:none;
             outline: none;position:relative;top: 16px;
 
@@ -88,7 +262,7 @@ background-size:cover;background-repeat:no-repeat;
 	.logo{position: relative;top: 0px;
 
 		   		
-			background-image: url(../../../../images/logo.svg);
+			background-image: url(../../../../images/nikelogo.svg);
 			height: 60px;
 			width: 60px;margin-top: 10px;
 			background-size: contain;
@@ -97,7 +271,7 @@ background-size:cover;background-repeat:no-repeat;
 
 		}
       
-    .cart{background-image: url(../../../../images/cart.svg);
+    .cart{background-image: url(../../../../images/nikecart.svg);
 	height: 50px;position:relative;top: 10px;
       	width: 50px; 
 background-size:cover;background-repeat:no-repeat;
