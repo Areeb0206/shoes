@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shoes/static/css/main.26177ae5.chunk.css",
-    "main.js": "/shoes/static/js/main.9868d80a.chunk.js",
-    "main.js.map": "/shoes/static/js/main.9868d80a.chunk.js.map",
+    "main.css": "/shoes/static/css/main.16ae523e.chunk.css",
+    "main.js": "/shoes/static/js/main.4c1e2b1a.chunk.js",
+    "main.js.map": "/shoes/static/js/main.4c1e2b1a.chunk.js.map",
     "runtime-main.js": "/shoes/static/js/runtime-main.923b9a0a.js",
     "runtime-main.js.map": "/shoes/static/js/runtime-main.923b9a0a.js.map",
     "static/css/2.701e1818.chunk.css": "/shoes/static/css/2.701e1818.chunk.css",
@@ -10,17 +10,27 @@
     "static/js/2.9b81409b.chunk.js.map": "/shoes/static/js/2.9b81409b.chunk.js.map",
     "index.html": "/shoes/index.html",
     "static/css/2.701e1818.chunk.css.map": "/shoes/static/css/2.701e1818.chunk.css.map",
-    "static/css/main.26177ae5.chunk.css.map": "/shoes/static/css/main.26177ae5.chunk.css.map",
+    "static/css/main.16ae523e.chunk.css.map": "/shoes/static/css/main.16ae523e.chunk.css.map",
     "static/js/2.9b81409b.chunk.js.LICENSE.txt": "/shoes/static/js/2.9b81409b.chunk.js.LICENSE.txt",
     "static/media/Section1.scss": "/shoes/static/media/puma.a0b7bbe9.svg",
-    "static/media/Adidas.scss": "/shoes/static/media/logo.69f800c0.svg",
-    "static/media/Navbar.scss": "/shoes/static/media/menu.ee7bd90d.svg"
+    "static/media/Adidas.scss": "/shoes/static/media/adidaslogo.8288a016.svg",
+    "static/media/Navbar.scss": "/shoes/static/media/menu.ee7bd90d.svg",
+    "static/media/nike-1.b6b62077.png": "/shoes/static/media/nike-1.b6b62077.png",
+    "static/media/nike-2.e8361204.png": "/shoes/static/media/nike-2.e8361204.png",
+    "static/media/nike-3.2025a521.png": "/shoes/static/media/nike-3.2025a521.png",
+    "static/media/nike-4.9356c226.png": "/shoes/static/media/nike-4.9356c226.png",
+    "static/media/nike-6.09237484.png": "/shoes/static/media/nike-6.09237484.png",
+    "static/media/nike-7.ac0009ce.png": "/shoes/static/media/nike-7.ac0009ce.png",
+    "static/media/nike-8.bf36e112.png": "/shoes/static/media/nike-8.bf36e112.png",
+    "static/media/Nike.scss": "/shoes/static/media/nikelogo.0813739d.svg",
+    "static/media/nikeshop.b59cb066.svg": "/shoes/static/media/nikeshop.b59cb066.svg",
+    "static/media/Puma.scss": "/shoes/static/media/pumalogo.c88ec783.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.923b9a0a.js",
     "static/css/2.701e1818.chunk.css",
     "static/js/2.9b81409b.chunk.js",
-    "static/css/main.26177ae5.chunk.css",
-    "static/js/main.9868d80a.chunk.js"
+    "static/css/main.16ae523e.chunk.css",
+    "static/js/main.4c1e2b1a.chunk.js"
   ]
 }
