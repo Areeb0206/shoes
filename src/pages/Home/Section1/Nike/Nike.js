@@ -90,33 +90,41 @@ const Nike = () => {
      
   }, {
   		logo:Logo,
-  	img:Nike1,
+  	img:Nike2,
   	info:"Ultra shoes",
   	type:"Mens Running",
   	amount:"$300"
      
   }, {
   		logo:Logo,
-  	img:Nike1,
+  	img:Nike3,
   	info:"Ultra shoes",
   	type:"Mens Running",
   	amount:"$300"
      
   }, {
   		logo:Logo,
-  	img:Nike1,
+  	img:Nike4,
   	info:"Ultra shoes",
   	type:"Mens Running",
   	amount:"$300"
      
   }, {
   		logo:Logo,
-  	img:Nike1,
+  	img:Nike7,
   	info:"Ultra shoes",
   	type:"Mens Running",
   	amount:"$300"
      
   },
+  {
+  		logo:Logo,
+  	img:Nike6,
+  	info:"Ultra shoes",
+  	type:"Mens Running",
+  	amount:"$300"
+     
+  }
   
 
 

@@ -12,7 +12,7 @@ const Home = () => {
   	<>
 
   	
-   <div className="Section">
+   <div className="section">
 
    
     
